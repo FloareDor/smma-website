@@ -1,4 +1,4 @@
-# A website for smma built from the groundup using react.js and three.js
+## A website for smma built from the groundup using react.js and three.js
 
 ## Setup local dev server
 

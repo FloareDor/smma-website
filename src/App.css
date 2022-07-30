@@ -1,0 +1,187 @@
+#root {
+  height: 100%;
+  background-color: black;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+html {
+scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* Navigation */
+li {
+  list-style-type: none;
+  text-decoration: none;
+}
+.nav-container {
+  background: #000000;
+  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  height: 100%;
+ /* left: 0px;
+  top: 0px;*/
+
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 150px;
+  position: fixed;
+}
+
+nav ul {
+  display: flex;
+  position: fixed;
+
+}
+
+nav .logo {
+  position: absolute;
+  width: 132px;
+  height: 61px;
+  left: 5.5%;
+  top: 5%;
+  
+  font-family: 'Playfair Display SC';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3.45vh;
+  line-height: 43px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  color: #FFFFFF;
+  
+  border: 1px solid #000000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  position: fixed;
+  z-index: 1;
+}
+
+.nav-items li {
+  list-style: none;
+  margin-right: 170%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2vh;
+  line-height: 30%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  color: #FFFFFF;
+  position: relative;
+  z-index: 1;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+
+.connect-btn {
+  width: 308.05px;
+  height: 42.8px;
+  left: 75%;
+  top: 5%;
+  position: fixed;
+}
+
+.connect-btn-text {
+  position: absolute;
+  width: 306.77px;
+  height: 42.65px;
+  left: 81%;
+  top: 5%;
+  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3.0vh;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  color: #000000;
+  position: fixed;
+  
+}
+
+.hello {
+  color: #fff;
+  font-size: 10vw;
+  font-family: Ink Free, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 301px;
+  height: 247px;
+  position: absolute;
+  left: 8%;
+  top: 27.5%;
+}
+
+
+.bg_image {
+  max-width: 100%;
+  height: auto;
+  width: 1051px;
+  position: absolute;
+  left: 35%;
+  top: 260px;
+  border-radius: 33px;
+  background-image:/* webpackIgnore: true */ url('images/bg.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body {
+  background-color: #000000
+}
+
+.landingtext {
+  color: #fff;
+  font-size: 3vmin;
+  font-family: Ink Free, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 316px;
+  height: 201px;
+  position: absolute;
+  left: 7%;
+  top: 67.7%;
+  line-height: 123.4%;
+}
+
+.whoWeAre {
+  color: #fff;
+  font-size: 36px;
+  font-family: Ink Free, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 35.7517px;
+  top: 372.2444px;
+  width: 191.6689px;
+  height: 24.1722px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
